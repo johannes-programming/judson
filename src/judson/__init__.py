@@ -1,5 +1,7 @@
-def main(args=None):
-    print("Hello World!")
-    
-if __name__ == '__main__':
-    main() 
+import howe as _howe
+
+
+def judson(keys, values):
+    h = _howe.Howe(keys, values)
+    ans = dict(h)
+    return ans

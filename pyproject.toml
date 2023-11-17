@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "judson"
-version = "0.0.0"
+version = "1.0.1"
 description = "Howe-style dicts"
 readme = "README.rst"
 authors = [
@@ -18,8 +18,14 @@ classifiers = [
     "Programming Language :: Python :: 3",
 ]
 keywords = []
-dependencies = []
+dependencies = [
+    "howe>=1.0",
+]
 requires-python = ">=3.11"
 
 [project.license]
 file = "LICENSE.txt"
+
+[project.urls]
+Download = "https://pypi.org/project/judson/#files"
+Source = "https://github.com/johannes-programming/judson"
