@@ -5,7 +5,7 @@ judson
 Overview
 --------
 
-Howe-style dicts
+The judson project contains the judson function. This function creates a dictionary from two iterators of the same length using the howe project. The judson project is named for W. L. Judson, one of the inventors of the zipper.
 
 Installation
 ------------
